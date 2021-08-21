@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[2021-08-21 18:48:44 INFO  LandingPage:38 - Navigate to - https://www.credify.tech/funnel/nonDMFunnel
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:37 - Setting desiredAmount to value 7973
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:65 - Selected Home Improvement from the dropdown
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:147 - Clicking On: CheckYourRate
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:47 INFO  BasePage:37 - Setting borrowerFirstName to value Cliff
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerLastName to value Abbott
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerStreet to value 77060 Erick Cape
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:49 INFO  BasePage:147 - Clicking On: borrowerFirstName
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerCity to value Lake Earleneport
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerState to value CA
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerZipCode to value 76982
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerDateOfBirth to value 05172003
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerIncome to value 154266
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: borrowerAdditionalIncome
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerAdditionalIncome to value 8082
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:37 - Setting password to value System@987
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: agreements
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:100 - Waiting for spinner to appear
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: submitPersonalInfo
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:51 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:41 - Great news, here are your offers!
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:42 - 7,970
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:43 - 7,970
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:48:59 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:00 INFO  BasePage:147 - Clicking On: Sign Out
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:01 INFO  SignInPage:58 - Navigate to - https://www.credify.tech/portal/login
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:02 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:02 INFO  BasePage:37 - Setting password to value System@987
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:02 INFO  BasePage:147 - Clicking On: login
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:06 INFO  BasePage:100 - Waiting for spinner to appear
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:06 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:06 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:07 INFO  BasePage:147 - Clicking On: Sign Out
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:07 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:07 INFO  LoanOffersUITest:49 - Success
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:07 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:08 INFO  LeadSecretApiTest:63 - InValid Status Code : 404
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:08 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p>]]>
+    </line>
+    <line>
+      <![CDATA[2021-08-21 18:49:09 INFO  LeadSecretApiTest:43 - Valid Status Code : 200
+<p>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-21T18:48:41 EDT" name="Command line suite" finished-at="2021-08-21T18:49:09 EDT" duration-ms="27831">
+    <groups>
+    </groups>
+    <test started-at="2021-08-21T18:48:41 EDT" name="Command line test" finished-at="2021-08-21T18:49:09 EDT" duration-ms="27831">
+      <class name="com.upgrade.tests.LeadSecretApiTest">
+        <test-method signature="InvalidrequestUID()[pri:0, instance:com.upgrade.tests.LeadSecretApiTest@683dbc2c]" started-at="2021-08-21T18:49:07 EDT" name="InvalidrequestUID" finished-at="2021-08-21T18:49:08 EDT" duration-ms="1283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2021-08-21 18:49:07 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:08 INFO  LeadSecretApiTest:63 - InValid Status Code : 404
+<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidrequestUID -->
+        <test-method signature="validleadSecretTest()[pri:0, instance:com.upgrade.tests.LeadSecretApiTest@683dbc2c]" started-at="2021-08-21T18:49:08 EDT" name="validleadSecretTest" finished-at="2021-08-21T18:49:09 EDT" duration-ms="966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2021-08-21 18:49:08 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:09 INFO  LeadSecretApiTest:43 - Valid Status Code : 200
+<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validleadSecretTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.upgrade.tests.LeadSecretApiTest@683dbc2c]" started-at="2021-08-21T18:49:08 EDT" name="afterTest" finished-at="2021-08-21T18:49:08 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.upgrade.tests.LeadSecretApiTest@683dbc2c]" started-at="2021-08-21T18:49:09 EDT" name="afterTest" finished-at="2021-08-21T18:49:09 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.upgrade.tests.LeadSecretApiTest -->
+      <class name="com.upgrade.tests.LoanOffersUITest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.upgrade.tests.LoanOffersUITest@2898ac89]" started-at="2021-08-21T18:48:41 EDT" name="beforeTest" finished-at="2021-08-21T18:48:41 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validateOffersTest()[pri:0, instance:com.upgrade.tests.LoanOffersUITest@2898ac89]" started-at="2021-08-21T18:48:41 EDT" name="validateOffersTest" finished-at="2021-08-21T18:49:07 EDT" duration-ms="25442" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2021-08-21 18:48:44 INFO  LandingPage:38 - Navigate to - https://www.credify.tech/funnel/nonDMFunnel
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:37 - Setting desiredAmount to value 7973
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:65 - Selected Home Improvement from the dropdown
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:147 - Clicking On: CheckYourRate
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:47 INFO  BasePage:37 - Setting borrowerFirstName to value Cliff
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerLastName to value Abbott
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerStreet to value 77060 Erick Cape
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:49 INFO  BasePage:147 - Clicking On: borrowerFirstName
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerCity to value Lake Earleneport
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerState to value CA
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerZipCode to value 76982
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerDateOfBirth to value 05172003
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerIncome to value 154266
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: borrowerAdditionalIncome
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerAdditionalIncome to value 8082
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:37 - Setting password to value System@987
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: agreements
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:100 - Waiting for spinner to appear
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: submitPersonalInfo
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:51 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:41 - Great news, here are your offers!
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:42 - 7,970
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:59 INFO  SelectOfferPage:43 - 7,970
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:48:59 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:00 INFO  BasePage:147 - Clicking On: Sign Out
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:01 INFO  SignInPage:58 - Navigate to - https://www.credify.tech/portal/login
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:02 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:02 INFO  BasePage:37 - Setting password to value System@987
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:02 INFO  BasePage:147 - Clicking On: login
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:06 INFO  BasePage:100 - Waiting for spinner to appear
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:06 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:06 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:07 INFO  BasePage:147 - Clicking On: Sign Out
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:07 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p>]]>
+            </line>
+            <line>
+              <![CDATA[2021-08-21 18:49:07 INFO  LoanOffersUITest:49 - Success
+<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateOffersTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.upgrade.tests.LoanOffersUITest@2898ac89]" started-at="2021-08-21T18:49:07 EDT" name="afterTest" finished-at="2021-08-21T18:49:07 EDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.upgrade.tests.LoanOffersUITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

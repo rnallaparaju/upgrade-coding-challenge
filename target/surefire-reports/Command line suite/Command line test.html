@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 21 18:48:41 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27831 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.upgrade.tests.LeadSecretApiTest.InvalidrequestUID()'><b>InvalidrequestUID</b><br>Test class: com.upgrade.tests.LeadSecretApiTest<br/>
+<a href="#Output-575827289" onClick='toggleBox("Output-575827289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-575827289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-575827289">
+2021-08-21 18:49:07 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p><br/>
+2021-08-21 18:49:08 INFO  LeadSecretApiTest:63 - InValid Status Code : 404
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.upgrade.tests.LeadSecretApiTest@683dbc2c</td></tr>
+<tr>
+<td title='com.upgrade.tests.LoanOffersUITest.validateOffersTest()'><b>validateOffersTest</b><br>Test class: com.upgrade.tests.LoanOffersUITest<br/>
+<a href="#Output-1976856229" onClick='toggleBox("Output-1976856229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1976856229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1976856229">
+2021-08-21 18:48:44 INFO  LandingPage:38 - Navigate to - https://www.credify.tech/funnel/nonDMFunnel
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:37 - Setting desiredAmount to value 7973
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:65 - Selected Home Improvement from the dropdown
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:147 - Clicking On: CheckYourRate
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:48:47 INFO  BasePage:37 - Setting borrowerFirstName to value Cliff
+<p><br/>
+2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerLastName to value Abbott
+<p><br/>
+2021-08-21 18:48:48 INFO  BasePage:37 - Setting borrowerStreet to value 77060 Erick Cape
+<p><br/>
+2021-08-21 18:48:49 INFO  BasePage:147 - Clicking On: borrowerFirstName
+<p><br/>
+2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerCity to value Lake Earleneport
+<p><br/>
+2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerState to value CA
+<p><br/>
+2021-08-21 18:48:49 INFO  BasePage:37 - Setting borrowerZipCode to value 76982
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerDateOfBirth to value 05172003
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerIncome to value 154266
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: borrowerAdditionalIncome
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:37 - Setting borrowerAdditionalIncome to value 8082
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:147 - Clicking On: continuePersonalInfo
+<p><br/>
+2021-08-21 18:48:50 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:37 - Setting password to value System@987
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: agreements
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:100 - Waiting for spinner to appear
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:147 - Clicking On: submitPersonalInfo
+<p><br/>
+2021-08-21 18:48:51 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:48:59 INFO  SelectOfferPage:41 - Great news, here are your offers!
+<p><br/>
+2021-08-21 18:48:59 INFO  SelectOfferPage:42 - 7,970
+<p><br/>
+2021-08-21 18:48:59 INFO  SelectOfferPage:43 - 7,970
+<p><br/>
+2021-08-21 18:48:59 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p><br/>
+2021-08-21 18:49:00 INFO  BasePage:147 - Clicking On: Sign Out
+<p><br/>
+2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:49:01 INFO  SignInPage:58 - Navigate to - https://www.credify.tech/portal/login
+<p><br/>
+2021-08-21 18:49:01 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:49:02 INFO  BasePage:37 - Setting username to value coding.17895187@upgrade-challenge.com
+<p><br/>
+2021-08-21 18:49:02 INFO  BasePage:37 - Setting password to value System@987
+<p><br/>
+2021-08-21 18:49:02 INFO  BasePage:147 - Clicking On: login
+<p><br/>
+2021-08-21 18:49:06 INFO  BasePage:100 - Waiting for spinner to appear
+<p><br/>
+2021-08-21 18:49:06 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:49:06 INFO  BasePage:147 - Clicking On: header-nav__toggle
+<p><br/>
+2021-08-21 18:49:07 INFO  BasePage:147 - Clicking On: Sign Out
+<p><br/>
+2021-08-21 18:49:07 INFO  BasePage:69 - Looking for mandatory elements on the page
+<p><br/>
+2021-08-21 18:49:07 INFO  LoanOffersUITest:49 - Success
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.upgrade.tests.LoanOffersUITest@2898ac89</td></tr>
+<tr>
+<td title='com.upgrade.tests.LeadSecretApiTest.validleadSecretTest()'><b>validleadSecretTest</b><br>Test class: com.upgrade.tests.LeadSecretApiTest<br/>
+<a href="#Output-2137349079" onClick='toggleBox("Output-2137349079", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2137349079" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2137349079">
+2021-08-21 18:49:08 INFO  ApiRequest:22 - Calling POST: https://credapi.credify.tech/api/brfunnelorch/v2/resume/byLeadSecret
+<p><br/>
+2021-08-21 18:49:09 INFO  LeadSecretApiTest:43 - Valid Status Code : 200
+<p><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.upgrade.tests.LeadSecretApiTest@683dbc2c</td></tr>
+</table><p>
+</body>
+</html>
